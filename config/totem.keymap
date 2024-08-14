@@ -117,10 +117,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp ESC    &bt BT_CLR  &kp UP    &kp EQUAL  &kp LBRC    &kp BACKSPACE  &kp KP_N7  &kp KP_N8   &kp KP_N9  &kp KP_PLUS
-        &kp LSHFT  &kp LEFT    &kp DOWN  &kp RIGHT  &kp LBKT    &kp RBKT       &kp KP_N4  &kp KP_N5   &kp KP_N6  &kp MINUS
-&trans  &kp DEL    &kp PG_UP   &kp CAPS  &kp PG_DN  &kp LPAR    &kp RPAR       &kp KP_N1  &kp KP_N2   &kp KP_N3  &kp KP_MULTIPLY  &kp KP_DIVIDE
-                               &trans    &trans     &trans      &mo ADJ        &kp KP_N0  &kp KP_DOT
+           &kp ESC       &bt BT_CLR    &kp UP    &kp PG_UP  &kp EQUAL    &kp BACKSPACE  &kp KP_N7  &kp KP_N8   &kp KP_N9  &kp KP_PLUS
+           &kp LSHFT     &kp LEFT      &kp DOWN  &kp RIGHT  &kp LBKT     &kp RBKT       &kp KP_N4  &kp KP_N5   &kp KP_N6  &kp MINUS
+&kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &kp CAPS  &kp PG_DN  &kp LPAR     &kp RPAR       &kp KP_N1  &kp KP_N2   &kp KP_N3  &kp KP_MULTIPLY  &kp KP_DIVIDE
+                                       &trans    &trans     &trans       &mo ADJ        &kp KP_N0  &kp KP_DOT
             >;
         };
 
@@ -143,9 +143,9 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp EXCL    &kp AT       &kp HASH   &kp DLLR  &kp PRCNT    &kp CARET     &kp AMPS      &kp ASTERISK  &kp MINUS   &kp INS
-        &kp LS(F3)  &trans       &kp RA(S)  &trans    &trans       &kp C_MUTE    &kp C_PP      &kp RA(N5)    &kp RA(N4)  &kp LEFT_PARENTHESIS
-&trans  &kp F3      &kp RA(F19)  &trans     &trans    &trans       &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PREV    &kp C_NEXT  &kp BSLH              &kp RIGHT_PARENTHESIS
+        &kp EXCL    &kp AT       &kp HASH   &kp DLLR  &kp PRCNT    &kp CARET     &kp AMPS      &kp ASTERISK  &kp MINUS             &kp EQUAL
+        &kp LS(F3)  &trans       &kp RA(S)  &trans    &trans       &kp C_MUTE    &kp C_PP      &kp RA(N5)    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&trans  &kp F3      &kp RA(F19)  &trans     &trans    &trans       &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PREV    &kp C_NEXT            &kp BSLH               &kp INSERT
                                  &trans     &gif      &mo ADJ      &trans        &trans        &trans
             >;
         };
