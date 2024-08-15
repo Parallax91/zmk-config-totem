@@ -119,7 +119,7 @@
             bindings = <
            &kp ESC       &bt BT_CLR    &kp UP    &kp PG_UP  &kp EQUAL    &kp BACKSPACE  &kp KP_N7  &kp KP_N8   &kp KP_N9  &kp KP_PLUS
            &kp LSHFT     &kp LEFT      &kp DOWN  &kp RIGHT  &kp LBKT     &kp RBKT       &kp KP_N4  &kp KP_N5   &kp KP_N6  &kp MINUS
-&kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &kp CAPS  &kp PG_DN  &kp LPAR     &kp RPAR       &kp KP_N1  &kp KP_N2   &kp KP_N3  &kp KP_MULTIPLY  &kp KP_DIVIDE
+&kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &kp CAPS  &kp PG_DN  &kp LPAR     &kp RPAR       &kp KP_N1  &kp KP_N2   &kp KP_N3  &kp KP_SLASH  &kp KP_MULTIPLY
                                        &trans    &trans     &trans       &mo 3          &kp KP_N0  &kp KP_DOT
             >;
         };
